@@ -7,12 +7,12 @@
 
 fn trim_me(input: &str) -> String {
     // TODO: Remove whitespace from both ends of a string!
-    ???
+
+     input[1..-1]
 }
 
 fn compose_me(input: &str) -> String {
-    // TODO: Add " world!" to the string! There are multiple ways to do this!
-    ???
+    
 }
 
 fn replace_me(input: &str) -> String {
