@@ -6,7 +6,7 @@
 
 
 fn main() {
-    let x: u8 = 3;
+    let mut x: u8 = 3;
     println!("Number {}", x);
     x = 5; // don't change this line
     println!("Number {}", x);

@@ -3,21 +3,22 @@
 // Execute `rustlings hint strings3` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
-
 fn trim_me(input: &str) -> String {
     // TODO: Remove whitespace from both ends of a string!
-
-     input[1..-1]
+    let mut owned_str: String = String::from(input.trim());
+     owned_str
 }
 
 fn compose_me(input: &str) -> String {
-    
-}
+    let mut owned_str: String = String::from(input);
+    owned_str.push_str(" world!");
+    owned_str
+} 
 
 fn replace_me(input: &str) -> String {
     // TODO: Replace "cars" in the string with "balloons"!
-    ???
+    let output = str::replace(input, "cars", "balloons");
+    output
 }
 
 #[cfg(test)]
